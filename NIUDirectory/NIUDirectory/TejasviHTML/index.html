@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+		
+		<title>Mobile Friendly Page</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="TejasviHTML/main.css" />
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,600,800' type='text/css' media='all'/>
+
+		<!-- JavaScript -->
+		<script type="text/javascript" src="javascript/jQuery.all.js"></script>
+		<script type="text/javascript" src="javascript/dropDown.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				//Run code upload Page load
+				enableDropDownForIds('#userInfo, #createAccount');
+			});
+		</script>
+	</head>
+	<body>
+		<div id="titleBar" class="blue-gradiant">My Portfolio</div>
+		<img src="TejasviHTML/KR6_9283-Srigiraraju.jpg" id="profile_pic" alt="Profile Picture"/>
+		<div id="name" class="blue-gradiant">EXPERIENCES AND INTERESTS</div>
+        <div class="space">&nbsp  </div>
+		<div class="experienceDetails">
+			<span class="company">Infosys Ltd.</span>
+			<span class="address">Hyd, India</span>
+			<span class="yearSpan">2012-2015</span>
+			<span class="positionTitle">Senior Systems Engineer </span>
+			<p>Worked on development and automation of oracle apps</p>
+		</div>
+        
+        
+        
+        
+		<hr class="width-75">
+		<div class="experienceDetails">
+        
+        <span class="company">Northern Illinois University</span><span class="address">DeKalb, Illinois </span>
+					<span class="yearSpan">SPRING 2017</span>
+			<span class="positionTitle">Graduate Student</span>
+		  <p>Great experience in developing iOS apps by coding in swift. It is  good start for my career as a mobile application developer.</p>
+		</div>
+        
+        
+        
+		<hr class="width-75">
+		<div class="experienceDetails">
+			<span class="company">BADMINTON ACADEMY</span>
+			<span class="address">LVR CLUB, INDIA</span>
+			<span class="yearSpan">Summer 2011</span>
+			<span class="positionTitle">BADMINTON INSTRUCTOR</span>
+			<p>Taught kids to play badminton.</p>
+		</div>
+		<div id="footer">
+			Designed by Tejasvi Srigiriaju ( student of Kai Rush). Updated for CSCI 321/521, Spring 2017 Course.
+	</div>
+	</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+		
+		<title>Mobile Friendly Page</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="JyostnaHTML/main.css" />
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,600,800' type='text/css' media='all'/>
+
+		<!-- JavaScript -->
+		<script type="text/javascript" src="javascript/jQuery.all.js"></script>
+		<script type="text/javascript" src="javascript/dropDown.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				//Run code upload Page load
+				enableDropDownForIds('#userInfo, #createAccount');
+			});
+		</script>
+	</head>
+	<body>
+		<div id="titleBar" class="blue-gradiant">My Portfolio</div>
+		<img src="JyostnaHTML/profile_pic.jpg" id="profile_pic" alt="Profile Picture"/>
+		<div id="name" class="blue-gradiant">EXPERIENCES AND INTERESTS</div><div> &nbsp  </div>
+		<div class="experienceDetails">
+			<span class="company">Northern Illinois University</span>
+			<span class="address">DeKalb, Illinois</span>
+			<span class="yearSpan">2016 - now</span>
+			<span class="positionTitle">Teaching Assistant at NIU </span>
+			<p>Teaching Assistant for subject Data Structures and Algorithms, help students in clearing their doubts</p>
+		</div>
+        
+        
+        
+        
+		<hr class="width-75">
+		<div class="experienceDetails">
+        
+        <span class="company">IBM India Pvt Ltd</span><span class="address">Hyderabad, India</span>
+			<span class="yearSpan">2013 - 2016</span>
+			<span class="positionTitle">Application Developer</span>
+		  <p>Coding and debugging, testing and production support</p>
+		</div>
+        
+        
+       
+		<div id="footer">
+			Updated for CSCI 321/521, Spring 2017 Course.
+	</div>
+	</body>
+</html>
